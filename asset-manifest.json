@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/bloodlevel-calculator/static/css/main.3afb1999.css",
+    "main.js": "/bloodlevel-calculator/static/js/main.269a0e4a.js",
+    "static/js/453.40b1aa63.chunk.js": "/bloodlevel-calculator/static/js/453.40b1aa63.chunk.js",
+    "static/media/background.jpg": "/bloodlevel-calculator/static/media/background.96128a9e91b886a3522d.jpg",
+    "static/media/Augusta.ttf": "/bloodlevel-calculator/static/media/Augusta.8ab8f7c7341f57faf896.ttf",
+    "index.html": "/bloodlevel-calculator/index.html",
+    "main.3afb1999.css.map": "/bloodlevel-calculator/static/css/main.3afb1999.css.map",
+    "main.269a0e4a.js.map": "/bloodlevel-calculator/static/js/main.269a0e4a.js.map",
+    "453.40b1aa63.chunk.js.map": "/bloodlevel-calculator/static/js/453.40b1aa63.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3afb1999.css",
+    "static/js/main.269a0e4a.js"
+  ]
+}
