@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+  background-image: url('/public/background.jpg');  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 960px) {
+  .App {
+    text-align: center;
+    background-image: url('/public/background.jpg');  
+    background-position: 67% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.App-header {
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: center;*/
+  font-size: calc(12px + 2vmin);
+  color: white; 
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#particles-js{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-color: rgba(0, 0, 0, 0.418);
+}
+
+.Main-Area {
+  display: flex;
+  flex-direction:column; 
+  padding-top: 10%;  
+}
+
+.Input-Field {
+ outline-color: red; 
+  
+}
+
+.Input-Area{
+  display: flex;
+  flex-direction:row; 
+  column-gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 20px;  
+}
+
+@font-face {
+  font-family: "Augusta";
+  src: local("Augusta"),
+   url("./fonts/Augusta.ttf") format("truetype");
+  font-weight: bold;
+ }
+
+.Results-Area {
+  z-index: 2;
+  align-items: center;
+  text-align: center;
+}
+
+.Error-Text {
+  color: red;
+  font-size: 14px;
+}
+
+.Title-Text {
+  color: rgb(243, 227, 7);
+  font-size: 14px;
+}
+
+.Echoes-Needed {
+  font-family: "Augusta";
+}
+
+.App-Title {
+  z-index: 2;
+  font-family: "Augusta";
+}
+
+.Footer {
+  display: flex;
+  z-index: 2;
+  height: 30vh;
+  align-items: end;
+}
+.Github-Link {
+  
+}
+
+.Github-Icon {
+  border-radius: 50%;
+  height: 40px;
+  opacity: 85%;
+  transition: 0.2s;
+}
+
+.Github-Icon:hover {
+  border-radius: 30%;
+  height: 55px;
+  opacity: 100%;
+  transition: 0.2s;
+  filter: invert(100%);
+
+}
+
